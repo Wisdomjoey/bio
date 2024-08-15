@@ -19,7 +19,7 @@
   <div class="card__container">
     <div class="card__wrapper">
       <div class="image__wrapper">
-        <img src="/images/profile.PNG" />
+        <img src="./images/IMG_20220718_175700-1.jpg" />
       </div>
       
       <div class="description__wrapper">
