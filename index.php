@@ -10,10 +10,10 @@
 
 <body>
   <?php
-  const NAME = "JAY Z";
-  const DESCRIPTION = "The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats.";
-  $more_link = "https://example.com";
-  $subscribe_link = "https://example.com";
+    const NAME = "JAY Z";
+    const DESCRIPTION = "The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats.";
+    $more_link = "https://example.com";
+    $subscribe_link = "https://example.com";
   ?>
 
   <div class="card__container">
@@ -31,14 +31,14 @@
         </div>
 
         <?php
-        echo "<p>$DESCRIPTION</p>";
+          echo "<p>$DESCRIPTION</p>";
         ?>
 
         <div class="btn__wrapper">
           <?php
-          echo "<a href='$more_link'>Read More</a>";
-          
-          echo "<a href='$subscribe_link'>Subscribe</a>";
+            echo "<a href='$more_link'>Read More</a>";
+            
+            echo "<a href='$subscribe_link'>Subscribe</a>";
           ?>
         </div>
       </div>
