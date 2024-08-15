@@ -11,7 +11,7 @@
 <body>
   <?php
     const NAME = "JAY Z";
-    const DESCRIPTION = "The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats.";
+    const DESCRIPTION = "I am Jonathan Wisdom and I am a Fullstack Developer. I am currently learning PHP on the Bincom Academy session of August 2024. As a beginner in PHP I hope to accomplish a lot using PHP and to use my skills to solve problems";
     $more_link = "https://example.com";
     $subscribe_link = "https://example.com";
   ?>
