@@ -9,27 +9,41 @@
 </head>
 
 <body>
-  <main>
-    <div class="name__display">
-      <?php
-      $name = 'JAY Z';
+  <?php
+  const NAME = "JAY Z";
+  const DESCRIPTION = "The CSS Grid Layout Module offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats.";
+  $more_link = "https://example.com";
+  $subscribe_link = "https://example.com";
+  ?>
 
-      echo "<h1>$name</h1>";
-      ?>
+  <div class="card__container">
+    <div class="card__wrapper">
+      <div class="image__wrapper">
+        <img src="/images/profile.PNG" />
+      </div>
+      
+      <div class="description__wrapper">
+        <div class="name__wrapper">
+          <?php
+          echo "<h1>$NAME</h1>";
+          ?>
+          <p>&starf;&starf;&starf;&star;&star;</p>
+        </div>
+
+        <?php
+        echo "<p>$DESCRIPTION</p>";
+        ?>
+
+        <div class="btn__wrapper">
+          <?php
+          echo "<a href='$more_link'>Read More</a>";
+          
+          echo "<a href='$subscribe_link'>Subscribe</a>";
+          ?>
+        </div>
+      </div>
     </div>
+  </div>
 
-    <div class="description">
-      <?php
-      $description = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo debitis veritatis quaerat ducimus numquam ipsum, odit aspernatur ab consectetur. Enim nulla quod iste obcaecati aliquid quasi fuga non? Dolore, saepe.';
-
-      echo "<p>$description</p>";
-      ?>
-    </div>
-  </main>
-
-  <aside>
-    <img class="profile" src="./images/IMG_20220718_175700.jpg" alt="Profile Image">
-  </aside>
 </body>
-
 </html>
