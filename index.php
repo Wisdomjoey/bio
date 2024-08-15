@@ -25,13 +25,13 @@
       <div class="description__wrapper">
         <div class="name__wrapper">
           <?php
-          echo "<h1>$NAME</h1>";
+          echo "<h1>".NAME."</h1>";
           ?>
           <p>&starf;&starf;&starf;&star;&star;</p>
         </div>
 
         <?php
-          echo "<p>$DESCRIPTION</p>";
+          echo "<p>".DESCRIPTION."</p>";
         ?>
 
         <div class="btn__wrapper">
